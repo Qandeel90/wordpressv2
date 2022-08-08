@@ -1,0 +1,250 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+
+border-bottom: 2px solid rgb(100, 100, 100) ;
+}
+.navbar :nth-child(1){
+    text-align: center;
+    color: rgb(51, 51, 51);
+}
+.herobanner{
+    background-image: url(./full.jfif),linear-gradient(rgba(51, 51, 51, 0.5),rgba(22, 22, 22, 0.5));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: overlay;
+  
+
+}
+
+.herotext{
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+.herobanner h1{
+    font-size: 2.7rem;
+}
+.herobanner a{
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-style: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+    background: #25d366; 
+
+}
+a i{
+    padding-right: 5px;
+    font-size: 8px;
+}
+.herobanner a:hover{
+background: #178b42;
+
+}
+.banner {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.right img{
+    width: 500px;
+    height: 500px;
+    margin: 0 5px;
+}
+.left img{
+    width: 500px;
+    height: 500px;
+    margin: 0 5px;
+}
+.container{
+
+    padding: 10px 150px;
+    text-align: center;
+}
+.container:hover{
+    background: #cecdcd;
+}
+.fullscreen{
+    display: flex;
+    justify-content: center;
+
+}
+.video{
+    width: 100%;
+}
+.movetext{
+    background: #25d366; 
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 20px 0;
+   margin-bottom: -10px;
+}
+.title1{
+    text-align: center;
+   
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.gulfimage1{
+    background-image: url(./gulf1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 50%;
+    margin: 10px 30px ;
+}
+.textgulf{
+  border: rgb(90, 90, 90) 1px solid;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 0 20px;
+}
+.textgulf p{
+    margin: 0 53px;
+}
+.textgulf:hover{
+    background: #25d366;
+border: none;
+}
+.cards{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.cardimg{
+    background-image: url(./gulf1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin: 10px 30px ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.cardimg2{
+    background-image: url(./full.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin: 10px 30px ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.cardimg3{
+    background-image: url(./side.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin: 10px 30px ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.innertext:hover{
+ background: #178b41cb;
+ padding: 30px 20px;
+text-align: center;
+color: white;
+display: block;
+}
+.innertext{
+    color:rgba(95, 158, 160, 0);
+    border-radius: 20px;
+}
+.numberbanner{
+    background: #e7e7e7;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 40px;
+   
+}
+.numberbanner a{
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-style: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+    background: #25d366;
+}
+.numberbanner a:hover{
+    background: #178b42;
+    
+    }
+    .map
+    {
+        height: 500px;
+        width: 100%;
+    }
+
+.footer{
+    display: flex;
+    padding: 30px 20px;
+    justify-content: space-around;
+    align-items: center;
+    background: #e7e7e7;
+    text-align: center;
+}
+.footer  a{
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-style: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background: #25d366;
+    
+}
+
+.footer a:hover{
+    background: #178b42;
+    
+    }
+
+    .copyright-bg{
+background-color: rgb(63, 63, 63);
+text-align: center;
+padding: 10px 0px;
+color: white;
+    }
