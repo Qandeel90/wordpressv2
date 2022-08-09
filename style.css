@@ -65,24 +65,30 @@ background: #178b42;
     align-content: center;
     align-items: center;
 }
-.right img{
-    width: 500px;
-    height: 500px;
-    margin: 0 5px;
+.right{
+    background-image: url(./full.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 50%;
+    margin: 0 25px;
 }
-.left img{
-    width: 500px;
-    height: 500px;
-    margin: 0 5px;
+.left{
+    background-image: url(./side.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 50%;
+    margin: 0px 25px;
 }
 .container{
-
-    padding: 10px 150px;
+margin: 0 20px;
+   
     text-align: center;
 }
-.container:hover{
-    background: #cecdcd;
-}
+
 .fullscreen{
     display: flex;
     justify-content: center;
@@ -137,6 +143,7 @@ border: none;
 .cards{
     display: flex;
     margin-top: 20px;
+    align-items: center;
     
 }
 .cardimg{
@@ -248,3 +255,62 @@ text-align: center;
 padding: 10px 0px;
 color: white;
     }
+    .whats-app {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 15px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        
+        font-size: 30px;
+        box-shadow: 2px 2px 3px rgb(65, 65, 65);
+        z-index: 100;
+    }
+    
+    .my-float {
+        margin-top: 16px;
+        padding-left: 5px;
+    }
+    @media screen and (max-width: 480px) {
+      
+        .banner{
+flex-direction: column;
+
+        }
+        .right{
+            width: 100%;
+        }
+        .left{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+       .info{
+        flex-direction: column-reverse;
+        margin: 0 10px;
+       }
+       .gulfimage1{
+        width: 100%;
+       }
+       .cards{
+        flex-direction: column;
+        overflow:hidden ;
+        
+       }
+       .cardimg ,.cardimg2,.cardimg3{
+        width: 80%;
+       }
+
+       .numberbanner h1{
+font-size: 1.5rem;
+       }
+       .footer{
+        flex-direction: column;
+       }
+       .navbar{
+        padding: 0 20px;
+       }
+      }
